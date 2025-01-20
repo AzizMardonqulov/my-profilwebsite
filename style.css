@@ -18,7 +18,7 @@ input{
 }
 .hader{
     width: 100%;
-    height: 100vh;
+    height: 230vh !important;
     background-color: #E5E9DC;
 }
 .navbar{
@@ -31,6 +31,8 @@ input{
     flex-direction: row;
     padding-left: 3%;
     padding-right: 3%;
+    position: static;
+    transition: all 0.5s ease;
 }
 .navbar-right{
     display: flex;
@@ -146,6 +148,7 @@ input{
 }
 .baner{
     width: 100%;
+    height: 100vh;
     background-color: #E5E9DC;
     padding-top: 10%;
     padding-left: 5%;
@@ -227,13 +230,13 @@ input{
     font-size: 1.5rem;
     display: flex;
     gap: 1rem;
-    color: #000;
+    color: #778DA9;
     align-items: center;
 }
 .baner-blog-lable-in-lable-3-img{
     width: 3rem;
     height: 3rem;
-    background-color: #101010;
+    background-color: #778DA9;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -261,6 +264,388 @@ input{
 }
 .baner-blog-lable-img img{
     object-fit: cover;
+    border: 1px solid #778DA9;
+}
+.baner-blog-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.baner-blog-icons ul {
+    display: flex;
+    flex-direction: column;
+}
+.baner-blog-icons ul li{
+    margin-top: 3rem;
+}
+.baner-blog-icons ul li a{
+    padding: 13px 15px;
+    background-color: #778DA9;
+    border-radius: 50%;
+}
+.baner-blog-icons ul li a i{
+    color: #E5E9DC;
+}
+.baner-blog-icons ul li:last-child a i{
+    padding: 13px 3px;
+}
+.baner-blog-icons ul li:hover a {
+    color: #778DA9;
+    background: transparent;
+    border: 1px solid #778DA9;
+}
+.baner-blog-icons ul li:hover a i{
+    color: #778DA9;
+}
+.baner-blog-icons ul li:active{
+    transform: scale(1.04);
+}
+.baner-bottom{
+    width: 100%;
+    height: 100vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7rem;
+}
+.baner-buttom-1{
+    width: 58%;
+}
+.baner-buttom-2{
+    width: 42%;
+}
+.baner-button-1-lable{
+    font-size:3.2rem;
+    font-weight: 600;
+    color: #2c2a2a;
+    position: relative;
+}
+.baner-button-1-lable span {
+    width: 5rem;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top:120px;
+    left: -10px;
+}
+.baner-buttom-2-lable-1{
+    font-size: 1.2rem;
+    color: #686866;
+    margin-bottom: 3rem;
+
+}
+.baner-buttom-2-lable-button{
+    padding: 15px 15px;
+    font-size: 1rem;
+    color: #E5E9DC;
+    background-color: #778DA9;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 4REM;
+    background: #E5E9DC;
+}
+.about-blog-img{
+    width: 40%;
+    height: 1;
+    padding-top: 3REM;
+}
+.about-blog-img img{
+    width:100%;
+}
+.about-lable{
+    width: 60%;
+    padding-top: 3REM;
+    padding-left: 7rem;
+}
+.about-lable-1{
+    font-size: 20px;
+    margin-bottom:3rem ;
+}
+.about-lable-unser-info-lable-1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.about-lable-uncer-info-1{
+    display: flex;
+    gap: 1rem;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.about-lable-uncer-info-1:last-child{
+    margin-bottom: 2rem;
+}
+
+.about-lable-uncer-info-1 i{
+    margin-top: 5px;
+}
+.about-hobby{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+}
+.about-hobby-lable-1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: block;
+    margin-bottom: 3rem;
+}
+.about-hobby-1{
+    display: flex;
+    flex-direction: column;
+}
+.about-hobby-in{
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+
+}
+.experience{
+    width: 100%;
+    background-color: #E5E9DC;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+}
+.experiens-block-in{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.experience-lable{
+    width: 30%;
+}
+.experionce-blog-in{
+    width: 70%;
+    padding-left: 9rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.experience-lable-1{
+    font-size: 3rem;
+    font-weight: 600;
+    display: flex;
+    margin-bottom: 3rem;
+}
+.experience-lable-block-1{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+.experience-lable-block-1-img{
+    width: 60px;
+    height: 60px;
+    background: #778DA9;
+    display: flex;
+    justify-content: center;
+}
+.experience-lable-block-1-img img{
+    width: 30px;
+}
+.experience-lable-block-1-lable-1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #434343;
+}
+.experience-lable-block-1-lable-2{
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+    color: #686866;
+}
+.experience-blog-lable-in{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding-right: 1rem;
+}
+.experience-blog{
+    height: 6rem;
+    border-bottom: 1px solid #778DA9;
+    overflow: hidden;
+}
+.experience-blog-lable-in-1{
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+}
+.experience-blog-lable-in-1:last-child{
+    font-size: 1rem;
+    color: #686866;
+    margin-top: 0.5rem;
+}
+.experience-blog-lable-icon{
+    font-size: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.experience-blog-1-lable-1{
+    font-size: 17px;
+    margin-bottom: 0.5rem;
+}
+.experience-blog-1-lable-item{
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+.experience-blog-1-lable-item ul{
+    display: flex;
+    flex-direction: column;
+}
+.experience-blog-1-lable-item ul li{
+    margin-top: 0.5rem;
+    list-style:disc;
+}
+.experienceBlogHIg{
+    height: 18rem !important;
+}
+.contackt{
+    width: 100%;
+    height: 100vh;
+    background-color: #E5E9DC;
+    display: flex;
+    flex-direction: column;
+}
+.contackt-lable{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 15rem;
+    margin-bottom: 4rem;
+}
+.contackt-lable-1{
+    font-size: 45px;
+    width: 500px;
+    font-weight: 600;
+}
+.contackt-button{
+    width: 10vw;
+    height: 10vw;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #E5E9DC;
+    font-size: 18px;
+    gap: 0.5em;
+    transform: rotate(-30deg);
+    cursor: pointer;
+}
+.contackt-button:hover{
+    transform: rotate(0);
+    transform: scale(1.0);
+}
+.contackt-in{
+    width: 100%;
+    display: flex;
+}
+.contackt-in-blog-form{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    border-right: 2px solid #778DA9;
+}
+.contackt-in-blog-form-in{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contackt-in-blog-form-lable{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.contackt-in-blog-form-in input{
+    width: 90%;
+    height: 50px;
+    background-color: #E5E9DC;
+    border: 0px;
+    border-bottom: 2px solid #778DA9;
+    padding-left: 0;
+}
+.contackt-in-blog-form-in input:nth-child(3){
+    height:100px;
+    display: flex;
+    align-items:start;
+    margin-bottom: 1rem;
+}
+.contackt-in-blog-form-in input::placeholder{
+    font-size: 17px;
+    color: #778DA9;
+}
+.contackt-in-blog-form-in a{
+    width: 28%;
+    height: 50px;
+    font-size: 16px;
+    color: #778DA9;
+    border: 1px solid #778DA9;
+    background: #E5E9DC;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contackt-in-blog-form-in a:hover{
+    background-color: #778DA9;
+    color: #E5E9DC;
+}
+.contackt-in-blog-form-in a:active{
+    box-shadow: 0px 0px 3em #778DA9;
+}
+.contackt-in-blog-lable{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+.contackt-in-blog-lable-1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.contackt-in-blog-lable-item{
+    margin-bottom: 3rem;
+}
+.contackt-in-blog-lable-item ul {
+    display: flex;
+    gap: 2rem;
+}
+.contackt-in-blog-lable-item ul li a{
+    color: #000;
+}
+.contackt-in-blog-lable-2-lable-1{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.contackt-in-blog-lable-2-lable-2{
+    font-size: 16px;
+    line-height: 35px;
+}
+.contackt-in-blog-lable-2-lable-2 span{
+    margin-left: 1rem;
+}
+.contackt-in-blog-bottom{
+    width: 70%;
+    margin-top: auto;
+    font-size: 16px;
+}
+.contackt-in-blog-bottom span{
+    color: #778DA9;
 }
 
 
@@ -270,18 +655,220 @@ input{
 
 
 
-
-
-
-
-
-
-@media only screen and (max-width:450px) {
+@media only screen and (max-width:450px){
+    .hader{
+        height: 350vh;
+    }
     .navbar-right-lable{
         display: none;
     }
-}
+    .navbar-logo{
+        margin-top: -2vw;
+    }
+    .navbar-bars span{
+        width: 0.1rem !important;
+        height: 1.4rem !important;
+    }
+    .navbar-medio ul li:last-child a{
+        font-size: 20px;
+    }
+    .baner{
+        height: 100vh;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .baner-lable{
+        font-size: 2rem;
+        margin-left: 5vw;
+    }
+    .baner-lable p{
+        font-size: 2rem;
+    }
+    .baner-blog{
+        flex-direction: column;
+    }
+    .baner-blog-lable{
+        flex-direction: column;
+    }
+    .baner-blog-lable-img img{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .baner-skroll{
+        width: 27vw;
+        height: 28vw;
+        margin-top: 2rem;
+    }
+    .baner-skroll span{
+        width: 2rem;
+        height: 2rem; 
+        right: 0.8rem;
+        top:0.8rem;
+        left: 1.5rem;
 
+    }
+    .baner-skroll span i{
+        font-size: 10px;   
+    }
+    .baner-skroll{
+        margin-left: 1rem;
+    }
+    .baner-blog-lable-in{
+        padding-left: 1rem;
+    }
+    .baner-blog-lable-in-lable-1{
+        font-size: 1.5rem;
+    }
+    .baner-blog-lable-in-lable-2{
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    .baner-blog-lable-in-lable-3{
+        margin-bottom: 1rem;
+    }
+    .baner-blog-lable-img-lable{
+        font-size: 20px;
+    }
+    .baner-blog-lable-img-lable-1{
+        display: none;
+    }
+    .baner-blog-icons ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .baner-blog-icons ul li{
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .baner-blog-icons ul li:last-child{
+        display: none;
+    }
+    .baner-bottom{
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1;
+    }
+    
+    .about{
+        height: 200vh;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .about-blog-img{
+        width: 100%;
+    }
+    .about-blog-img img{
+        width: 100%;
+    }
+    .about-lable{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 1rem;
+    }
+    .about-lable-1{
+        font-size: 0.5rem;
+        margin-top: 0;
+    }
+    .about-lable-uncer-info-1{
+        display: flex;
+        gap: 1rem;
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .about-lable-uncer-info-1:nth-child(4){
+        font-size: 14px;
+    }
+    .about-lable-uncer-info-1:nth-child(5){
+        font-size: 14px;
+    }
+    .about-lable-uncer-info-1:last-child{
+        margin-bottom: 2rem;
+    }
+    
+    .about-lable-uncer-info-1 i{
+        margin-top: 5px;
+    }
+    .about-hobby-1{
+        width:100px;
+    }
+   .about-hobby-in{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding-left: 0;
+   } 
+}
+.projeckt{
+    width: 100%;
+    height: 90vh;
+    background-color: #E5E9DC;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+}
+.projeckt-lable-1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #2c2a2a;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.projeckt-in{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.projeckt-in-blog-1{
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position-x: 40%;
+    position: relative;
+}
+.projeckt-in-blog-1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #060606bb;
+    position: absolute;
+    z-index: 2;
+}
+.projeckt-in-blog-1:first-child{
+    background-image: url(./img/projeckt/1.webp);
+}
+.projeckt-in-blog-1:nth-child(2){
+    background-image: url(./img/projeckt/2.webp);
+    background-position-x: 50%;
+    background-position-y: 10%;
+}
+.projeckt-in-blog-1:nth-child(3){
+    background-image: url(./img/projeckt/3.png);
+}
+.projeckt-in-blog-1:nth-child(4){
+    background-position-x: 100%;
+    background-image:url(./img/projeckt/4.png);
+}
+/* #0a2d72 */
+.projeckt-in-blog-1 div{
+    font-size: 25px;
+    color: #E5E9DC;
+    position: relative;
+    z-index: 3;
+}
+.projeckt-in-blog-1 div:last-child{
+    font-size: 18px;
+    color: #778DA9;
+}
 
 
 
@@ -310,7 +897,6 @@ input{
         font-size: 20px;
     }
     .baner{
-        height: 150vh;
         padding-left: 0;
         padding-right: 0;
     }
@@ -368,5 +954,205 @@ input{
     .baner-blog-lable-img-lable-1{
         display: none;
     }
-
+    .baner-blog-icons ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .baner-blog-icons ul li{
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .baner-blog-icons ul li:last-child{
+        display: none;
+    }
+    .baner-button-1-lable{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .baner-buttom-1{
+        width: 100%;
+        margin-bottom: 2REM;
+    }
+    .baner-button-1-lable{
+        font-size: 20px;
+        width: 100%;
+    }
+    .baner-button-1-lable span{
+        width: 2rem;
+        top: 2.7rem;
+        
+    }
+    .baner-buttom-2{
+        width: 87%;
+    }
+    .baner-buttom-2-lable-1{
+        font-size: 13px;
+    }
+    .baner-buttom-2 a{
+        padding: 15px 15px;
+        font-size: 15px;
+    }
+    .about{
+        height: 210vh;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .about-blog-img{
+        width: 100%;
+    }
+    .about-blog-img img{
+        width: 100%;
+    }
+    .about-lable{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 1rem;
+    }
+    .about-lable-1{
+        font-size: 0.5rem;
+        margin-top: 0;
+    }
+    .about-lable-uncer-info-1{
+        display: flex;
+        gap: 1rem;
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .about-lable-uncer-info-1:nth-child(4){
+        font-size: 14px;
+    }
+    .about-lable-uncer-info-1:nth-child(5){
+        font-size: 12px;
+    }
+    .about-lable-uncer-info-1:last-child{
+        margin-bottom: 2rem;
+    }
+    
+    .about-lable-uncer-info-1 i{
+        margin-top: 5px;
+    }
+    .about-hobby-1{
+        width:100px;
+    }
+   .about-hobby-in{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding-left: 0;
+   } 
+    .experience{
+        height: 120vh;
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .experience-lable{
+        width: 100%;
+    }
+    .experience-lable-1{
+        font-size: 25px;
+    }
+    .experience-blog{
+        flex-direction: column;
+    }
+    .experience-lable{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .experionce-blog-in{
+        width: 100%;
+        padding-left: 0;
+    }
+    .experience-blog{
+        width: 100%;
+        height: 4rem;
+        padding-left: 0;
+    }
+    .experience-blog-lable-in-1{
+        font-size: 13px;
+    }
+    .experience-blog-lable-in-1:last-child{
+        font-size: 10px;
+    }
+    .experience-blog-lable-icon{
+        font-size: 25px;
+    }
+    .experience-blog-1-lable-1{
+        font-size: 11px;
+    }
+    .projeckt{
+        height: 170vh;
+    }
+    .projeckt-lable-1{
+        font-size: 25px;
+    }
+    .projeckt-in-blog-1{
+        width: 100%;
+        height: 60vw;
+    }
+    .projeckt-in-blog-1-lable-1{
+        margin-bottom: 0.2rem;
+    }
+    .projeckt-in-blog-1-lable-2{
+        text-align: center;
+    }
+    .contackt{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contackt-lable{
+        flex-direction: column;
+        padding-right: 0;
+        padding-left: 1rem;
+    }
+    .contackt-lable-1{
+        width: 95%;
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    .contackt-button{
+        width: 35vw;
+        height: 35vw;
+    }
+    .contackt-in{
+        flex-direction: column;
+    }
+    .contackt-in-blog-form{
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .contackt-in-blog-lable{
+        width: 100%;
+        padding-left: 1rem;
+        margin-top: 3rem;
+        height: 70vh;
+    }
+    .contackt-in-blog-form-in input{
+        width: 100%;
+    }
+    .contackt-in-blog-form-in a{
+        width: 30vw;
+        height:15vw;
+    }
+    .contackt-in-blog-lable-item ul{
+        flex-wrap: wrap;
+    }
+    .contackt-in-blog-lable-item ul li a{
+        font-size: 14px;
+    }
+    .contackt-in-blog-lable-2-lable-2{
+        font-size: 14px;
+    }
+    .contackt-in-blog-bottom{
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 2rem;
+    }
 }
