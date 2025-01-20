@@ -1044,7 +1044,7 @@ input{
     padding-left: 0;
    } 
     .experience{
-        height: 120vh;
+        height: 140vh;
         flex-direction: column;
         padding-top: 1rem;
         padding-left: 1rem;
@@ -1127,6 +1127,7 @@ input{
     .contackt-in-blog-form{
         width: 100%;
         padding-left: 1rem;
+        border-right: 0px;
     }
     .contackt-in-blog-lable{
         width: 100%;

@@ -45,7 +45,6 @@ experienceBlog.addEventListener('click' , function(){
         experienceBlogIcon.style.transform="rotate(0deg)";
         off = false;
     }
-
 })
 experienceBlog2.addEventListener('click' , function(){
     if(off == false){
@@ -57,7 +56,6 @@ experienceBlog2.addEventListener('click' , function(){
         experienceBlogIcon2.style.transform="rotate(0deg)";
         off = false;
     }
-
 })
 experienceBlog3.addEventListener('click' , function(){
     if(off == false){
@@ -69,5 +67,4 @@ experienceBlog3.addEventListener('click' , function(){
         experienceBlogIcon3.style.transform="rotate(0deg)";
         off = false;
     }
-
 })
