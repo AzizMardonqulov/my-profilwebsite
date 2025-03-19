@@ -1085,7 +1085,8 @@ input{
         font-size: 11px;
     }
     .projeckt{
-        height: 170vh;
+        height: 200vh;
+        padding-top: 0;
     }
     .projeckt-lable-1{
         font-size: 25px;
